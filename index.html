@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A35_Q2: RGB to Hex Converter</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <h1 class>RGB</h1>
+      <form>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">R:</span>
+          </div>
+          <input type="text" class="form-control" id="r-value">
+          <span class="item-r"></span>
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">G:</span>
+          </div>
+          <input type="text" class="form-control" id="g-value">
+          <span class="item-g"></span>
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">B:</span>
+          </div>
+          <input type="text" class="form-control" id="b-value">
+          <span class="item-b"></span>
+        </div>
+        <div class="btn btn-primary" id="convertBtn">Convert</div>
+    </form>
+    </div>
+    <div class="col-6">
+      <h1 class>HEX</h1>
+      <input type="text" class="form-control" value="" id="HEX-result" >
+      <div class="item-show" id="HEX-color"></div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
